@@ -8,9 +8,9 @@ html {
 
 body {
   margin: 0;
-  font-family: Inter, Arial, sans-serif;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: #17202a;
-  background: #ffffff;
+  background: #fff;
   line-height: 1.6;
 }
 
@@ -28,8 +28,8 @@ a {
   padding: 22px 28px;
 
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -53,7 +53,7 @@ a {
 }
 
 
-/* HERO */
+/* ACCUEIL */
 
 .hero {
   max-width: 1180px;
@@ -96,7 +96,9 @@ a {
 
 .intro {
   max-width: 700px;
+
   font-size: 19px;
+
   color: #53606b;
 }
 
@@ -106,8 +108,11 @@ a {
 .buttons,
 .contact-buttons {
   display: flex;
+
   flex-wrap: wrap;
+
   gap: 12px;
+
   margin: 28px 0;
 }
 
@@ -128,22 +133,26 @@ a {
 
 .btn-primary {
   background: #17202a;
-  color: white;
+
+  color: #fff;
+
   border-color: #17202a;
 }
 
 .btn-secondary {
-  background: white;
+  background: #fff;
 }
 
 
-/* MOTS CLÉS */
+/* MOTS-CLÉS */
 
 .keywords,
 .mini-tags,
 .keyword-cloud {
   display: flex;
+
   flex-wrap: wrap;
+
   gap: 8px;
 }
 
@@ -171,6 +180,7 @@ a {
   height: 220px;
 
   object-fit: cover;
+
   object-position: center;
 
   border-radius: 50%;
@@ -184,6 +194,7 @@ a {
 
 .availability {
   font-size: 13px;
+
   font-weight: 700;
 }
 
@@ -192,7 +203,9 @@ a {
 
 .section {
   max-width: 1180px;
+
   margin: auto;
+
   padding: 100px 28px;
 }
 
@@ -201,8 +214,15 @@ a {
 
   background: #f5f7f8;
 
-  padding-left: max(28px, calc((100vw - 1180px) / 2));
-  padding-right: max(28px, calc((100vw - 1180px) / 2));
+  padding-left: max(
+    28px,
+    calc((100vw - 1180px) / 2)
+  );
+
+  padding-right: max(
+    28px,
+    calc((100vw - 1180px) / 2)
+  );
 }
 
 .section h2 {
@@ -217,6 +237,7 @@ a {
 
 h2 em {
   font-style: normal;
+
   opacity: 0.62;
 }
 
@@ -253,21 +274,24 @@ h2 em {
 
   border-radius: 20px;
 
-  background: white;
+  background: #fff;
 }
 
 .service-card > span {
   font-size: 12px;
+
   opacity: 0.5;
 }
 
 .service-card h3 {
   margin: 10px 0 6px;
+
   font-size: 20px;
 }
 
 .service-card p {
   margin: 0;
+
   color: #5d6973;
 }
 
@@ -292,17 +316,21 @@ h2 em {
 
 .experience-item h3 {
   margin: 0;
+
   font-size: 24px;
 }
 
 .experience-date {
   font-size: 13px;
+
   font-weight: 750;
+
   opacity: 0.6;
 }
 
 .job-title {
   font-weight: 750;
+
   margin: 4px 0 12px;
 }
 
@@ -314,10 +342,17 @@ h2 em {
 
   background: #17202a;
 
-  color: white;
+  color: #fff;
 
-  padding-left: max(28px, calc((100vw - 1180px) / 2));
-  padding-right: max(28px, calc((100vw - 1180px) / 2));
+  padding-left: max(
+    28px,
+    calc((100vw - 1180px) / 2)
+  );
+
+  padding-right: max(
+    28px,
+    calc((100vw - 1180px) / 2)
+  );
 }
 
 .why-grid {
@@ -349,7 +384,7 @@ h2 em {
 }
 
 
-/* EXPERTISE */
+/* COMPÉTENCES */
 
 .keyword-cloud span {
   background: #f5f7f8;
@@ -364,7 +399,9 @@ h2 em {
 
 .contact-intro {
   font-size: 19px;
+
   color: #53606b;
+
   max-width: 700px;
 }
 
@@ -382,13 +419,13 @@ footer {
 
   padding: 25px 28px;
 
-  border-top: 1px solid #dfe4e8;
-
   display: flex;
 
   justify-content: space-between;
 
   gap: 20px;
+
+  border-top: 1px solid #dfe4e8;
 
   font-size: 12px;
 
@@ -424,6 +461,7 @@ footer {
 
   .intro {
     margin-left: auto;
+
     margin-right: auto;
   }
 
@@ -451,6 +489,7 @@ footer {
   .two-columns,
   .why-grid {
     grid-template-columns: 1fr;
+
     gap: 30px;
   }
 
@@ -460,6 +499,7 @@ footer {
 
   .experience-item {
     grid-template-columns: 1fr;
+
     gap: 8px;
   }
 
@@ -469,6 +509,7 @@ footer {
 
   .contact-buttons {
     flex-direction: column;
+
     align-items: stretch;
   }
 
@@ -478,7 +519,9 @@ footer {
 
   footer {
     padding: 22px 20px;
+
     flex-direction: column;
+
     text-align: center;
   }
 }
